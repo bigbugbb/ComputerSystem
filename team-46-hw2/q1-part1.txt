@@ -1,0 +1,51 @@
+Monitor Barbershop:
+    condition barber_sleep
+    condition barber_ready
+    condition barber_awake
+    condition haircut_done
+
+    barber_chair   = 1    // 1 means the barber chair is available
+    waiting_chairs = 4    // number of available waiting chairs
+    baber_awake    = 1    // 1 means the barber is awake
+
+    method barber() {
+
+        while (1) {
+            if waiting_chairs == 4 and baber_chair == 1
+                wait(barber_sleep)
+                signal(barber_awake)
+
+            else if baber_chair == 0
+                <do a haircut>
+                signal(haircut_done)
+                signal(barber_ready)
+
+            barber_chairs = 1 // the customer left the barber chair
+        }
+    }
+
+    method customer() {
+        if waiting_chairs == 0:  //barber shop is full
+            <cusotmer leave>
+
+        else:
+            waiting_chairs--
+
+            while(barber_chair == 0){
+                wait(barber_ready)
+            }
+
+            // move from waiting chairs to baber chair and wake barber
+            barber_chair = 0
+            waiting_chairs++
+            signal(barber_sleep)
+
+            while (barber_awake != 1){
+                wait(barber_awake)
+            }
+
+            wait(haircut_done)
+    }
+
+
+

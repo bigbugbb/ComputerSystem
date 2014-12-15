@@ -1,0 +1,2 @@
+We had a meeting and set up development environment on our laptops. Both of us had installed the VM on our local machines and had the Ubuntu32 image run without any problem. We also download homework codebase using SVN and compiled the code successfully.
+After discussed on the solutions to all those questions, we decided to assign Rui Zhang to implement the solution for Q1 and Q2 and Bin Bo to implement solution for Q3. Then in our next meeting, we will sync up and merge our code together. 

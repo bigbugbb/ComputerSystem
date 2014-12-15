@@ -1,0 +1,2 @@
+We met and set up the environment for the coding part of this assignment. Then we walked through all the questions in this assignment and discussed on the solutions for those questions.
+We have already started to write the code for mirror and stripe. For raid4, we were a little confused but after searching online we have known what to do now. For the testings we decided to split the tasks, think on the solutions and we will sync up in our next collaboration meeting.
