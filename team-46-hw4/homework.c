@@ -1,10 +1,9 @@
 /*
  * file:        homework.c
- * description: skeleton file for CS 5600 homework 3
+ * description: skeleton file for CS 5600 homework 4
  *
  * CS 5600, Computer Systems, Northeastern CCIS
- * Peter Desnoyers, updated April 2012
- * $Id: homework.c 452 2011-11-28 22:25:31Z pjd $
+ * bigbug, updated December 2014
  */
 
 #define FUSE_USE_VERSION 27

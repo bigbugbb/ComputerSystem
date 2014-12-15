@@ -3,8 +3,7 @@
  * description: Skeleton for homework 1
  *
  * CS 5600, Computer Systems, Northeastern CCIS
- * Peter Desnoyers, Jan. 2012
- * $Id: homework.c 500 2012-01-15 16:15:23Z pjd $
+ * bigbug, Sep. 2014
  */
 
 #include <stdio.h>

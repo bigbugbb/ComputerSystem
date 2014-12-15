@@ -2,8 +2,7 @@
  * file:        homework.c
  * description: Skeleton code for CS 5600 Homework 2
  *
- * Peter Desnoyers, Northeastern CCIS, 2011
- * $Id: homework.c 530 2012-01-31 19:55:02Z pjd $
+ * bigbug, Northeastern CCIS, 2014
  */
 
 #include <stdio.h>

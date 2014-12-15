@@ -1,9 +1,9 @@
 /*
  * file:        homework.c
  * description: skeleton code for CS 5600 Homework 3
- *
- * Peter Desnoyers, Northeastern Computer Science, 2011
- * $Id: homework.c 410 2011-11-07 18:42:45Z pjd $
+ * mirror and stripe parts of code is not written by bigbug
+ * 
+ * bigbug, Northeastern Computer Science, 2014
  */
 
 #include <stdio.h>
