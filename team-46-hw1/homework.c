@@ -1,6 +1,8 @@
 /*
  * file:        homework.c
  * description: Skeleton for homework 1
+ * q1 and q2 are too easy so they were not written by me,
+ * although q3 is easy too.
  *
  * CS 5600, Computer Systems, Northeastern CCIS
  * bigbug, Sep. 2014
